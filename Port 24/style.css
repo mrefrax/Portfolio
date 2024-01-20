@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 1900px;
+  background-color: hsl(0, 0%, 98%);
+  margin: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: "Karla", sans-serif;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 1000px;
+  width: 75px;
+}
+
+nav > a {
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: hsl(273, 4%, 51%);
+  font-weight: bold;
+}
+
+nav > a:active {
+  color: hsl(270, 9%, 17%);
+}
+
+a.views {
+  margin-left: 18px;
+  border: 2px solid hsl(270, 9%, 17%);
+  padding: 10px 25px;
+}
+
+a.views:active{
+  background-color: hsl(270, 9%, 17%);
+  color: hsl(0, 0%, 100%);
+}
+
+hr.line1{
+  width: 98px;
+  margin-top: 10px;
+  margin-left: 210px;
+  border-color: hsl(0, 0%, 100%);
+}
+
+.aligncenter {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(256, 26%, 20%);
+  background-image: url("images/bg-pattern-intro-left-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 400%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.humanizing {
+  margin-top: 0px;
+  color: hsl(0, 0%, 100%);
+  margin-left: 200px;
+  font-family: "DM Serif Display", serif;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.get-your {
+  margin-top: 0px;
+  margin-left: 200px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Karla", sans-serif;
+}
+
+.plans {
+  width: 130px;
+  padding: 8px;
+  margin-left: 200px;
+  border: 1px solid hsl(0, 0%, 100%);
+  background-color: transparent;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.plans:active{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(270, 9%, 17%);
+}
+
+.image-intro-desktop {
+  transform: translate(0px, 90px);
+  width: 480px;
+  margin-left: 500px;
+}
+
+.we-re-diffrent {
+  margin-top: 100px;
+  margin-left: 350px;
+  font-size: 2.2rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: lighter;
+}
+
+.align{
+  display: flex;
+  align-items: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-snappy-process {
+  margin-left: 350px;
+  width: 60px;
+}
+
+.snappy {
+  margin-left: 350px;
+  font-family: "DM Serif Display", serif;
+}
+
+.our {
+  margin-left: 350px;
+  color: hsl(0, 0%, 50%);
+  font-family: "Karla", sans-serif;
+}
+
+.icon-affordable-prices{
+  width: 60px;
+  margin-left: 50px;
+}
+
+.affordable{
+  margin-left: 50px;
+}
+
+.we-dont{
+  margin-left: 50px;
+  color: hsl(0, 0%, 50%);
+  font-family: "Karla", sans-serif;
+}
+
+
+.icon-people-first{
+  width: 60px;
+  margin-left: 50px;
+}
+
+.people{
+  margin-left: 50px;
+}
+
+.our-plans{
+  margin-left: 50px;
+  color: hsl(0, 0%, 50%);
+  font-family: "Karla", sans-serif;
+
+}
+
+.backgroun{
+  margin-top: 100px;
+  background-color: hsl(256, 26%, 20%);
+  width: 1100px;
+  padding: 10px;
+  margin-left: 350px;
+  background-image: url('images/bg-pattern-how-we-work-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.align{
+  display: flex;
+  align-items: center;
+}
+
+.find-out{
+  margin-left: 40px;
+  color: hsl(0, 0%, 100%);
+  font-family: "DM Serif Display", serif;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.how-we{
+  margin-left: 553px;
+  width: 170px;
+  padding: 12px;
+  border: 2px solid hsl(0, 0%, 100%);
+  background-color: transparent;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.how-we:active{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(270, 9%, 17%);
+}
+
+footer{
+  padding-top: 50px;
+  margin-top: 170px;
+  background-color: hsl(0, 0%, 100%);
+  background-image: url('images/bg-pattern-footer-desktop.svg');
+  background-repeat: no-repeat;
+}
+
+.alignfooter{
+  display: flex;
+  align-items: center;
+}
+
+.logo2{
+  margin-left: 350px;
+  width: 75px;
+  margin-right: 48%;
+}
+
+.icons{
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.icons:active{
+  background-color: hsl(270, 9%, 17%);
+  padding: 1px;
+  border-radius: 2px;
+}
+
+hr.line2{
+  margin-top: 25px;
+  border-color: rgba(230, 230, 230, 0.856);
+  width: 1120px;
+  margin-left: 350px;
+}
+
+.our-company{
+  margin-left: 350px;
+  font-family: "Karla", sans-serif;
+  color: hsl(0, 0%, 67%);
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.how{
+  margin-left: 350px;
+  font-family: "Karla", sans-serif;
+  color: hsl(270, 9%, 17%);
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.8rem;
+  cursor: pointer;
+}
+
+.how:hover{
+  text-decoration: underline;
+}
+
+.help-me{
+  margin-left: 140px;
+  font-family: "Karla", sans-serif;
+  color: hsl(0, 0%, 67%);
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.info{
+  margin-left: 140px;
+  font-family: "Karla", sans-serif;
+  color: hsl(270, 9%, 17%);
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.8rem;
+  cursor: pointer;
+}
+
+.info:hover{
+  text-decoration: underline;
+}
+
+.contact{
+  margin-left: 140px;
+  font-family: "Karla", sans-serif;
+  color: hsl(0, 0%, 67%);
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.others{
+  margin-left: 140px;
+  font-family: "Karla", sans-serif;
+  color: hsl(0, 0%, 67%);
+  letter-spacing: 2px;
+  font-weight: lighter;
+}

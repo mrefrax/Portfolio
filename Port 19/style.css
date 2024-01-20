@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    width: 1440px;
+    background-color: hsl(206, 94%, 87%);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 17px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.step{
+    background-color: hsl(243, 100%, 62%);
+    width: 250px;
+    height: 590px;
+    border-radius: 10px;
+    background-image: url('assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.top{
+    margin-top: 10px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    margin-top: 15px;
+    margin-left: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50pc;
+    padding: 10px;
+    border-radius: 50px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    padding: 10px 14px;
+    background-color: transparent;
+}
+
+button:active{
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.ste{
+    margin-top: 20px;
+    color: hsl(231, 11%, 63%);
+    margin-left: 14px;
+    margin-bottom: 4px;
+}
+
+.info{
+    margin-left: 14px;
+    margin-bottom: 5px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contai{
+    margin-left: 90px;
+}
+
+.personal{
+    margin-top: auto;
+    color: hsl(213, 96%, 18%);
+    margin-bottom: 8px
+}
+
+.please{
+    margin-top: 0px;
+    color: hsl(231, 11%, 63%);
+    margin-bottom: 20px;
+}
+
+.label{
+    color: hsl(213, 96%, 18%);
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.input{
+    margin-top: 5px;
+    width: 420px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.btn{
+    margin-top: 150px;
+    width: 100px;
+    margin-left: 360px;
+    padding: 12px 20px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: hsl(213, 96%, 18%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: hsl(213, 96%, 18%);
+    color: hsl(0, 0%, 100%);
+}

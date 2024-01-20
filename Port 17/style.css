@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+}
+
+#column{
+    display: flex;
+    flex-direction: column;
+}
+
+.softred{
+    background-color: hsl(10, 79%, 65%);
+    padding: 18px;
+    width: 385px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.my{
+    color: hsl(0, 00%, 100%);
+    margin-left: 10px;
+    margin-right: 210px;
+    margin-bottom: 8px;
+}
+
+.value{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: hsl(0, 00%, 100%);
+}
+
+.logo{
+    width: 58px;
+}
+
+#container{
+    height: 420px;
+    width: 420px;
+    background-color: hsl(0, 00%, 100%);
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 18px;
+}
+
+.spending{
+    padding: 10px;
+    margin-left: 24px;
+    margin-bottom: 40px;
+    color: hsl(25, 47%, 15%);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.mond{
+    margin-left: 40px;
+    background-color: hsl(10, 79%, 65%);
+    padding: 20px;
+    height: 2px;
+    border-radius: 4px;
+}
+
+.mon{
+    margin-top: 5px;
+    margin-left: 44px;
+    color: hsl(28, 10%, 53%);
+}
+
+.tues{
+    margin-left: 10px;
+    background-color: hsl(10, 79%, 65%);
+    padding: 20px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.tue{
+    margin-top: 5px;
+    margin-left: 17px;
+    color: hsl(28, 10%, 53%);
+}
+
+.weds{
+    margin-left: 10px;
+    background-color: hsl(186, 34%, 60%);
+    padding: 20px;
+    height: 80px;
+    border-radius: 4px;
+}
+
+.wed{
+    margin-top: 5px;
+    margin-left: 12px;
+    color: hsl(28, 10%, 53%);
+}
+
+.thues{
+    margin-left: 10px;
+    background-color: hsl(10, 79%, 65%);
+    padding: 20px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.thu{
+    margin-top: 5px;
+    margin-left: 17px;
+    color: hsl(28, 10%, 53%);
+}
+
+.frid{
+    margin-left: 10px;
+    background-color: hsl(10, 79%, 65%);
+    padding: 20px;
+    height: 15px;
+    border-radius: 4px;
+}
+
+.fri{
+    margin-top: 5px;
+    margin-left: 22px;
+    color: hsl(28, 10%, 53%);
+}
+
+.satur{
+    margin-left: 10px;
+    background-color: hsl(10, 79%, 65%);
+    padding: 20px;
+    height: 55px;
+    border-radius: 4px;
+}
+
+.sat{
+    margin-top: 5px;
+    margin-left: 18px;
+    color: hsl(28, 10%, 53%);
+}
+
+.sund{
+    margin-left: 10px;
+    background-color: hsl(10, 79%, 65%);
+    padding: 20px;
+    height: 19px;
+    border-radius: 4px;
+}
+
+.sun{
+    margin-top: 5px;
+    margin-left: 17px;
+    color: hsl(28, 10%, 53%);
+}
+
+hr{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 340px;
+    border-color: hsla(28, 10%, 53%, 0.185);
+    
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.total{
+    margin-left: 40px;
+    color: hsl(28, 10%, 53%);
+    margin-right: 100px;
+}
+
+.value2{
+    color: hsl(25, 47%, 15%);
+    font-size: 2rem;
+    margin-left: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.two{
+    margin-top: 0px;
+    margin-left: 74px;
+    color: hsl(25, 47%, 15%);
+    font-weight: bold;
+}
+
+.from-last{
+    color: hsl(28, 10%, 53%);
+}

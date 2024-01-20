@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+#container{
+    width: 1440px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+header{
+    background-image: url('images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.logo{
+    width: 130px;
+    margin-left: 125px;
+    margin-right: 640px;
+}
+
+nav > a {
+    
+    color: hsl(0, 0%, 100%);
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    font-size: 0.9rem;
+}
+
+nav > a:hover{
+    text-decoration: overline;
+}
+
+.immersive{
+    margin-top: 140px;
+    margin-left: 125px;
+    color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+    width: 590px;
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.5rem;
+    font-weight: lighter;
+}
+
+.the{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    margin-left: 50px;
+}
+
+.image-interactive{
+    margin-top: 0px;
+    width: 550px;
+}
+
+.branco{
+    margin-top: 200px;
+    transform: translate(-117px, 0px);
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    width: 400px;
+}
+
+.the-leader{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.founded{
+    font-size: 14px;
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 55%);
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.our{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: lighter;
+    margin-left: 125px;
+    margin-right: 630px;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 0%);
+    width: 140px;
+    padding: 7px;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+}
+
+.just{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+
+.image{
+    width: 250px;
+    margin-right: 30px;
+    background-image: linear-gradient(to top, hsl(0, 0%, 100%), hsl(0, 0%, 100%), hsl(0, 0%, 100%));
+    cursor: pointer;
+}
+
+.thee{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagee{
+    width: 250px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.paimage{
+    color: hsl(0, 0%, 100%);
+    transform: translate(30px, 390px);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.paimage:hover{
+    color: hsl(0, 0%, 41%);
+    width: 200px;
+}
+
+footer{
+    background-color: hsl(0, 0%, 0%);
+    margin-top: 140px;
+    padding-top: 40px;
+}
+
+.logo2{
+    margin-left: 125px;
+    margin-right: 800px;
+    margin-bottom: 8px;
+    width: 130px;
+}
+
+.icons{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.inf{
+    margin-top: 0px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    margin-left: 75px;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+}
+
+.inf:hover{
+    text-decoration: overline;
+}
+
+.info{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 12px;
+    font-family: 'Alata', sans-serif;
+}
+
+.info:hover{
+    text-decoration: overline;
+}
+
+.loopstudios{
+    margin-left: 470px;
+    color: hsl(0, 0%, 41%);
+    font-family: 'Alata', sans-serif;
+}

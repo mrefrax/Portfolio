@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <header>
+      <img class="logo" src="images/logo.svg" alt="logo">
+      <nav>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a class="login" href="#">Login</a></li>
+          <li><a href="#"><button class="sign">Sign Up</button></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="container">
+      <div class="flex">
+        <h1 class="more-than">More than just shorter links</h1>
+        <p class="build-yur">Build your brand’s recognition and get detailed insights
+          on how your links are performing.</p>
+        <button class="get">Get Started</button>
+      </div>
+      <img class="illustration-working" src="images/illustration-working.svg" alt="illustration-working">
+    </div>
+    
+    <div class="contai">
+    <div class="roxo">
+      <input class="search" type="search" name="link" id="" placeholder="Shorten a link here...">
+        <input class="btn-shorten" type="button" value="Shorten It!" onclick="short()"></input>
+    </div>
+
+      <div id="links" onclick="short()">
+        <div class="front">https://www.frontendmentor.io  <button onclick="btncopied()" class="co" id="copy">Copy</button> </div>
+        <div class="tt">https://www.twitter.com/frontendmentor <button onclick="btncopi()" class="cop" id="co">Copy</button> </div>
+        <div class="linked">https://www.linkedin.com/company/frontendmentor-mentor <button onclick="btncopie()" class="copy" id="cop">Copy</button> </div>
+      </div>
+
+      <h2 class="advanced">Advanced Statistics</h2>
+      <p class="track-how">Track how your links are performing across the web with our
+        advanced statistics dashboard.</p>
+
+        <div class="auto">
+      <div class="align">
+          <div class="bra">
+            <div class="backg">
+              <img class="icon" src="images/icon-brand-recognition.svg" alt="icon-brand-recognition">
+            </div>
+            <h4 class="brand">Brand Recognition</h4>
+            <span class="boost">Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content.</span>
+          </div>
+          <div class="bran">
+            <div class="backg">
+              <img class="icon" src="images/icon-detailed-records.svg" alt="icon-detailed-records">
+            </div>
+            <h4 class="brand">Detailed Records</h4>
+            <span class="boost">Gain insights into who is clicking your links. Knowing when and where
+              people engage with your content helps inform better decisions.</span>
+          </div>
+          <div class="brandd">
+            <div class="backg">
+              <img class="icon" src="images/icon-fully-customizable.svg" alt="icon-fully-customizable">
+            </div>
+            <h4 class="brand">Fully Customizable</h4>
+            <span class="boost">Improve brand awareness and content discoverability through customizable
+              links, supercharging audience engagement.</span>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="roxinho">
+      <h2 class="boost-your">Boost your links today</h2>
+    <div class="bt"><button class="get-started">Get Started</button></div>
+    </div>
+    <footer>
+      <div class="flex">
+        <img class="logo" src="images/logo.svg" alt="logo">
+        <div class="column">
+          <h5 class="in">Features</h5>
+          <span class="info">Link Shortening</span>
+          <span class="info">Branded Links</span>
+          <span class="info">Analytics</span>
+        </div>
+        <div class="column">
+          <h5 class="in">Resources</h5>
+          <span class="info">Blog</span>
+          <span class="info">Developers</span>
+          <span class="info">Support</span>
+        </div>
+        <div class="column">
+          <h5 class="inf">Company</h5>
+          <span class="info">About</span>
+          <span class="info">Our Team</span>
+          <span class="info">Careers</span>
+          <span class="info">Contact</span>
+        </div>
+      
+      <div class="fle">
+        <img class="iconsocial" src="images/icon-facebook.svg" alt="icon-facebook">
+         <img class="iconsocial" src="images/icon-twitter.svg" alt="icon-twitter">
+          <img class="iconsocial" src="images/icon-pinterest.svg" alt="icon-pinterest">
+           <img class="iconsocial" src="images/icon-instagram.svg" alt="icon-instagram">
+      </div>
+        </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+body{
+    background-color: hsl(240, 78%, 98%);
+    background-image: url('images/bg-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contai{
+    display: flex;
+    flex-direction: column;
+}
+
+.our-pricing{
+    color: hsl(233, 13%, 49%);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.mandy{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.annually{
+    margin-left: 294px;
+    margin-right: 0px;
+    color: hsl(234, 14%, 74%);
+    margin-bottom: 50px;
+}
+
+input[type = checkbox]{
+    width: 50px;
+    margin-bottom: 50px;
+}
+
+.monthly{
+    color: hsl(234, 14%, 74%);
+    margin-bottom: 50px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+#container{
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 350px;
+    padding-left: 15px;
+    box-shadow: 1px 10px 15px hsla(234, 13%, 49%, 0.158);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.basi{
+    margin-top: 22px;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(233, 13%, 49%);
+}
+
+.alignit{
+    display: flex;
+    align-items: center;
+}
+
+.doll{
+    font-size: 25px;
+    margin-left: 40px;
+    color: hsl(232, 13%, 33%)
+}
+
+.value{
+    font-size: 2.7rem;
+    margin-left: 5px;
+    color: hsl(232, 13%, 33%);
+}
+
+.h{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 220px;
+    border-color: hsla(234, 14%, 74%, 0.178);
+}
+
+hr{
+    width: 220px;
+    margin-left: 10px;
+    border-color: hsla(234, 14%, 74%, 0.178);
+}
+
+.info{
+    margin-left: 60px;
+    padding: 8px;
+    font-size: 13px;
+    color: hsl(233, 13%, 49%);
+}
+
+.learn-more{
+    margin-top: 30px;
+    width: 220px;
+    margin-left: 10px;
+    padding: 9px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border: 0px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.learn-more:active{
+    background-image: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 0%, 100%), hsl(0, 0%, 100%));
+    border: 1px solid hsl(232, 13%, 33%);
+    color: hsl(237, 63%, 64%);
+}
+
+.container{
+    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    height: 375px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pro{
+    margin-top: 40px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+.dol{
+    font-size: 25px;
+    margin-left: 40px;
+    color: hsl(0, 0%, 100%) 
+}
+
+.val{
+    margin-left: 5px;
+    font-size: 2.7rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.line{
+    margin-top: 17px;
+    border-color: hsla(0, 0%, 100%, 0.219);
+}
+
+.linee{
+    border-color: hsla(0, 0%, 100%, 0.219);
+}
+
+.infor{
+    margin-left: 75px;
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.inf{
+    margin-left: 60px;
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+
+.btn{
+    width: 240px;
+    margin-top: 30px;
+    padding: 9px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    border: 0px;
+    border-radius: 5px;
+    color: hsl(237, 63%, 64%);
+    font-size: 11px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+#contain{
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 350px;
+    padding-left: 15px;
+    box-shadow: 1px 10px 15px hsla(234, 13%, 49%, 0.158);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.master{
+    margin-top: 22px;
+    text-align: center;
+    color: hsl(233, 13%, 49%);
+    font-size: 15px;
+}
+
+.inform{
+    margin-left: 70px;
+    padding: 8px;
+    font-size: 13px;
+    color: hsl(233, 13%, 49%);
+}

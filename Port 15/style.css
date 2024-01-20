@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1902px;
+    margin: auto;
+    background-color: hsl(356, 100%, 66%);
+    background-image: url('images/bg-pattern-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 500px;
+    border-radius: 0px 0px 0px 70px;
+    font-family: 'Overpass', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo{
+    margin-left: 80px;
+    padding: 40px;
+    width: 70px;
+}
+
+nav > a {
+    padding-top: 40px;
+    padding: 15px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    margin-left: 5px;
+}
+
+.login{
+    margin-left: 1100px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.sign-up{
+    padding: 10px;
+    width: 100px;
+    border-radius: 40px;
+    border: 0px;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up:active{
+    background-color: hsla(0, 0%, 100%, 0.247);
+    color: hsl(0, 0%, 100%);
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.a-modern{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.6rem;
+    color: hsl(0, 0%, 100%);
+    line-height: 5rem;
+}
+
+.grow-your{
+    text-align: center;
+    margin-left: 400px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.start{
+    margin-top: 40px;
+    width: 117px;
+    padding: 12px;
+    border-radius: 40px;
+    border: 0px;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.start:active{
+    background-color: hsla(0, 0%, 100%, 0.247);
+    color: hsl(0, 0%, 100%);
+}
+
+.learn-more{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 110px;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 40px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.learn-more:active{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+}
+
+.container{
+    width: 1902px;
+    margin: auto;
+}
+
+.designed{
+    margin-top: 90px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: hsl(208, 49%, 24%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.alignn{
+    display: flex;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.introducing{
+    margin-left: 140px;
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    font-family: 'Overpass', sans-serif;
+    line-height: 4rem;
+}
+
+.blogr{
+    margin-left: 140px;
+    width: 450px;
+    color: hsl(207, 13%, 34%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.robust{
+    margin-top: 50px;
+    margin-left: 140px;
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    font-family: 'Overpass', sans-serif;
+    line-height: 4rem;
+}
+
+.flexible{
+    margin-left: 140px;
+    width: 480px;
+    color: hsl(207, 13%, 34%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.illustration-editor-desktop{
+    width: 700px;
+    margin-left: 500px;
+}
+
+.blo{
+    margin-top: 80px;
+    margin: auto;
+    background-color: hsl(237, 23%, 32%);
+    display: flex;
+    align-items: center;
+    background-image: url('images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 1902px;
+    height: 370px;
+    border-radius: 0px 70px 0px 70px;
+}
+
+.illustration-phones{
+    margin-left: 100px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.state-of{
+    margin-left: 50px;
+    font-size: 2rem;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    line-height: 4.2rem;
+}
+
+.with-reliability{
+    margin-left: 50px;
+    color: hsl(0, 0%, 100%);
+    width: 490px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container{
+    margin: auto;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.illustration-laptop-desktop{
+    margin-top: 100px;
+    width: 700px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.free{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    font-family: 'Overpass', sans-serif;
+    line-height: 4rem;
+}
+
+.features{
+    margin-left: 100px;
+    font-size: 15px;
+    width: 450px;
+    color: hsl(207, 13%, 34%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.powerful{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    font-family: 'Overpass', sans-serif;
+    line-height: 4rem;
+}
+
+.batteries{
+    margin-left: 100px;
+    font-size: 15px;
+    width: 450px;
+    color: hsl(207, 13%, 34%);
+    font-family: 'Overpass', sans-serif;
+}
+
+footer{
+    margin-top: 100px;
+    margin: auto;
+    background-color: hsl(240, 10%, 16%);
+    width: 1902px;
+    height: 370px;
+    border-radius: 0px 70px 0px 0px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.logo2{
+    width: 70px;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.inf{
+    margin-top: 40px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 5rem;
+}
+
+span{
+    margin-right: 440px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+span:active{
+    text-decoration: underline;
+}

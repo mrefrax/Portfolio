@@ -1,0 +1,516 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1440px;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.logo{
+    margin-left: 100px;
+    margin-right: 750px;
+    width: 100px;
+}
+
+nav > a {
+    padding-right: 20px;
+
+    text-decoration: none;
+    font-size: 12px;
+    color: hsl(229, 31%, 21%);
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+nav > a:active{
+    color: hsl(0, 94%, 66%);
+}
+
+nav .login{
+    padding: 9px;
+    width: 90px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: hsl(0, 94%, 66%);
+    cursor: pointer;
+
+    color: hsl(0, 00%, 100%);
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+nav .login:active{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.a-simple{
+    margin-left: 100px;
+    width: 340px;
+
+    font-weight: 500;
+    color: hsl(229, 31%, 21%);
+    font-size: 2.2rem;
+}
+
+.a-clean{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 400px;
+
+    color: hsl(229, 8%, 60%);
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.get-it-on-chrome{
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 130px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: hsl(231, 69%, 60%);
+    cursor: pointer;
+
+    color: hsl(0, 00%, 100%);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.get-it-on-chrome:active{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+}
+
+.get-it-on-firefox{
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 130px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 5px 2px 8px hsla(229, 8%, 60%, 0.329);
+    cursor: pointer;
+
+    color: hsl(229, 8%, 60%);
+    font-weight: 500;
+}
+
+.get-it-on-firefox:active{
+    border: 1px solid hsl(229, 8%, 60%);
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(229, 8%, 60%);
+}
+
+.backg{
+    margin-top: 240px;
+    margin-left: 300px;
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 500px 0px 0px 500px;
+    height: 300px;
+    width: 900px;
+}
+
+.illustration-hero{
+    width: 600px;
+    transform: translate(-179px, -150px);
+}
+
+.center{
+    text-align: center;
+}
+
+.features{
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    font-weight: 500;
+    color: hsl(229, 31%, 21%);
+}
+
+.our-aim{
+    width: 450px;
+    margin: auto;
+
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.alignn{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.s{
+    margin-right: 80px;
+
+    font-weight: 400;
+    color: hsl(229, 8%, 60%);
+    cursor: pointer;
+}
+
+.s:active{
+    color: hsl(0, 94%, 66%);
+}
+
+.line{
+    margin-top: 30px;
+    width: 620px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.background{
+    margin-top: 240px;
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 0px 500px 500px 0px;
+    height: 340px;
+    width: 700px;
+}
+
+.illustration-features-tab-1{
+    width: 580px;
+    transform: translate(170px, -90px);
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmark{
+    margin-left: 200px;
+
+    color: hsl(229, 31%, 21%);
+    font-weight: 500;
+    line-height: 4rem;
+}
+
+.organize{
+    width: 400px;
+    margin-left: 200px;
+
+    color: hsl(229, 8%, 60%);
+}
+
+.more-info{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 90px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: hsl(231, 69%, 60%);
+    cursor: pointer;
+
+    color: hsl(0, 0%, 100%);
+}
+
+.download{
+    margin-top: 120px;
+
+    text-align: center;
+    font-weight: 500;
+    color: hsl(229, 31%, 21%);
+    line-height: 3rem;
+}
+
+.we-ve{
+    width: 480px;
+    margin: auto;
+    
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.base{
+    margin-top: 60px;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 12px hsla(231, 69%, 60%, 0.151);
+}
+
+.logonavs{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.add-chrome{
+    margin-bottom: 10px;
+
+    text-align: center;
+    font-weight: 500;
+    color: hsl(229, 31%, 21%);
+}
+
+.minimum{
+    margin-bottom: 30px;
+
+    text-align: center;
+    font-size: 13px;
+    color: hsl(229, 8%, 60%);
+    font-weight: 400;
+}
+
+.add-install{
+    width: 160px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    border: 0px;
+    background-color: hsl(231, 69%, 60%);
+    cursor: pointer;
+
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+.add-install:active{
+    border: 1px solid hsl(231, 69%, 60%);
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(231, 69%, 60%);
+}
+
+.containe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 12px hsla(231, 69%, 60%, 0.151);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-right: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 12px hsla(231, 69%, 60%, 0.151);
+}
+
+.frequently{
+    margin-top: 100px;
+
+    text-align: center;
+    font-weight: 500;
+    color: hsl(229, 31%, 21%);
+}
+
+.here{
+    width: 440px;
+    margin: auto;
+
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.quentions{
+    margin-top: 40px;
+}
+
+.quest{
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 480px;
+    color: hsl(229, 31%, 21%);
+    font-weight: 500;
+}
+
+
+.close{
+    background-color: rgb(255, 127, 127);
+}
+
+.answer{
+    display: none;
+    width: 490px;
+    margin-left: 530px;
+    margin-top: 20px;
+
+    color: hsl(229, 8%, 60%);
+    line-height: 2rem;
+}
+
+.icon-arrow{
+    margin-left: 160px;
+    margin-bottom: 20px;
+    width: 12px;
+    cursor: pointer;
+}
+
+.icon-arro{
+    margin-left: 43px;
+    margin-bottom: 20px;
+    width: 12px;
+    cursor: pointer;
+}
+
+.icon-arr{
+    margin-left: 136px;
+    margin-bottom: 20px;
+    width: 12px;
+    cursor: pointer;
+}
+
+.icon-ar{
+    margin-left: 2px;
+    margin-bottom: 20px;
+    width: 12px;
+    cursor: pointer;
+}
+
+
+
+hr{
+    margin: auto;
+    margin-bottom: 5px;
+    width: 400px;
+    border-color: hsla(229, 8%, 60%, 0.192);
+}
+
+
+.moreinfo{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.more{
+    margin-top: 20px;
+    width: 90px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: hsl(231, 69%, 60%);
+    cursor: pointer;
+
+    color: hsl(0, 0%, 100%);
+}
+
+footer{
+    padding-top: 60px;
+    margin-top: 150px;
+    background-color: hsl(231, 69%, 60%);
+    text-align: center;
+    height: 260px;
+}
+
+.joined{
+   margin-top: 40px;
+
+   color: hsl(0, 0%, 100%);
+   font-size: 12px;
+   letter-spacing: 4px;
+}
+
+.stay{
+    padding-top: 40px;
+    margin: auto;
+    width: 440px;
+
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+.email{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 11px;
+    width: 250px;
+    border: 1px solid hsl(229, 31%, 21%);
+    border-radius: 5px;
+}
+
+.contact{
+    width: 100px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: hsl(0, 94%, 66%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.alignitems{
+    display: flex;
+    align-items: center;
+    background-color: hsl(229, 8%, 60%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo2{
+    margin-left: 100px;
+    margin-right: 120px;
+    width: 100px;
+}
+
+.infor{
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: hsl(0, 0%, 100%);
+}
+
+.icons{
+    margin-left: 650px;
+    margin-right: 40px;
+}

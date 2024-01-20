@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    width: 850px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.para{
+    font-size: 1.4rem;
+    color: hsl(240, 38%, 20%);
+    transform: translate(50px, 0px);
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 7px;
+    font-weight: bold;
+    font-size: 11px;
+    color: hsl(240, 38%, 20%);
+}
+
+.info{
+    margin-top: 0px;
+    color: hsl(240, 18%, 77%);
+    font-size: 11px;
+}
+
+.image-tanya{
+    width: 400px;
+    border-radius: 4px;
+}
+
+.btn{
+    width: 90px;
+    padding: 10px;
+    border-radius: 40px;
+    border: 0px;
+    background-color: hsl(0, 00%, 100%);
+    transform: translate(38px, -20px);
+    box-shadow: 0px 9px 15px hsla(240, 37%, 20%, 0.233);
+    cursor: pointer;
+}
+
+.prev{
+    margin-right: 30px;
+    width: 10px;
+}
+
+.next{
+    width: 10px;
+}
+
+.image-john{
+    width: 400px;
+    border-radius: 4px;
+}

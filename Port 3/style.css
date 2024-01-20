@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#container{
+    width: 1440px;
+    height: 950px;
+    margin: auto;
+    padding-left: 80px;
+    background-color: rgb(247, 247, 247);
+}
+
+#container header{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#container header .logo{
+    width: 140px;
+    margin-right: 760px;
+}
+
+#container header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#container header nav ul li a{
+    text-decoration: none;
+    padding-right: 17px;
+    color: hsl(0, 0%, 32%);
+}
+
+#container header nav ul button{
+    padding: 13px;
+    width: 110px;
+    background-color: rgb(56, 8, 100);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#container header nav ul button a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+#container .flex{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#container .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+#container .we-are{
+    background-color: rgb(56, 8, 100);
+    width: 460px;
+    padding: 8px;
+    border-radius: 50px;
+
+    color: rgb(188, 159, 214);
+    text-align: center;
+}
+
+#container .we-are .learn{
+    color: rgb(188, 159, 214);
+    font-weight: 600;
+}
+
+#container .build{
+    margin-top: 20px;
+    width: 610px;
+
+    line-height: 3.6rem;
+    color: rgb(60, 29, 90);
+    font-size: 3rem;
+}
+
+#container .commune{
+    margin-top: 10px;
+    width: 640px;
+
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 32%);
+}
+
+#container .align{
+    display: flex;
+    align-items: center;
+}
+
+#container .email{
+    margin-top: 15px;
+    width: 290px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 75%);
+}
+
+::placeholder{
+    font-size: 15px;
+    color: hsl(0, 0%, 67%);
+}
+
+#container .btn-join{
+    margin-top: 12px;
+    margin-left: 10px;
+    padding: 12px;
+    width: 110px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 75%);
+    background-color: rgb(56, 8, 100);
+    cursor: pointer;
+
+    color: hsl(0, 0%, 100%);
+}
+
+#container .illustration{
+    margin-left: 270px;
+    margin-top: 30px;
+    width: 380px;
+}
+
+#container .column{
+    display: flex;
+    flex-direction: column;
+}
+
+#container .used{
+    margin-top: 220px;
+    font-weight: 600;
+    color: hsl(0, 0%, 32%);
+    margin-bottom: 20px;
+}
+
+#container .icon{
+    padding-right: 9px;
+}

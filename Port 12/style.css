@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor0: hsl(0, 0%, 63%);
+    --cor1: hsl(0, 0%, 0%);
+    --cor2: hsl(0, 0%, 100%);
+    --cor3: hsl(0, 0%, 27%);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    width: 1440px;
+}
+
+#container{
+    background-image: url('images/desktop-image-hero-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    width: 1400px;
+    height: 400px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 38px 40px 0px;
+}
+
+.logo{
+    margin-right: 40px;
+    width: 50px;
+}
+
+nav > a{
+    padding-right: 17px;
+
+    text-decoration: none;
+    color: var(--cor2);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    background-color: var(--cor2);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.discover{
+    width: 300px;
+    margin-top:140px;
+    margin-left: 80px;
+    font-weight: 600;
+}
+
+.we-provide{
+    width: 430px;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+    color: var(--cor0);
+    font-weight: 400;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.shop{
+    margin-left: 80px;
+    margin-bottom: 35px;
+
+    color: var(--cor1);
+    text-decoration: none;
+    letter-spacing: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.shop:hover{
+    color: var(--cor0);
+}
+
+.icon-arrow{
+    width: 35px;
+    margin-bottom: 35px;
+}
+
+.setas{
+    margin-top: 5px;
+}
+
+.prev{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 60px;
+    background-color: var(--cor1);
+}
+
+.prev:active{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icon-angle-left{
+    padding-top: 5px;
+    width: 13px;
+    margin-left: 22px;
+}
+
+.next{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 60px;
+    background-color: var(--cor1);
+}
+
+.next:active{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icon-angle-right{
+    padding-top: 5px;
+    width: 13px;
+    margin-left: 22px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.image-about-dark{
+    width: 354px;
+    margin-bottom: 67px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    margin-left: 38px;
+
+    font-size: 17px;
+    letter-spacing: 11px;
+    line-height: 3rem;
+}
+
+.our-multifunctional{
+    margin-left: 38px;
+    margin-bottom: 50px;
+    width: 430px;
+
+    color: var(--cor0);
+    font-size: 13px;
+}
+
+.image-about-light{
+    width: 354px;
+    margin-left: 7px;
+    margin-bottom: 77px;
+}

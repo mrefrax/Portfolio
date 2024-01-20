@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <div id="container">
+    <div class="flex">
+      <div class="direction">
+        <label class="numb" for="numb">DAY</label>
+        <input class="inpu" type="number" name="num" id="numb" placeholder="DD">
+      </div>
+      <div class="direction">
+        <label class="numb" for="tnum">MONTH</label>
+        <input class="inpu" type="number" name="nu" id="tnum" placeholder="MM"></input>
+      </div>
+      <div class="direction">
+        <label class="numb" for="tyear">YEAR</label>
+        <input class="inpu" type="number" name="year" id="tyear" placeholder="YYYY"></input>
+      </div>
+    </div>
+    <div class="line">
+      <hr>
+    </div>
+    <button class="icon-a">
+      <img class="arrow" src="assets/images/icon-arrow.svg" alt="icon-arrow">
+    </button>
+    <div class="align">
+      <span class="traco">-  -</span> <span class="years">years</span>
+    </div>
+    <div class="align">
+      <span class="traco">-  -</span> <span class="months">months</span>
+    </div>
+    <div class="align">
+      <span class="traco">-  -</span> <span class="days">days</span>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,398 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1440px;
+    background-color: hsl(218, 28%, 13%);
+    margin: auto;
+}
+
+header{
+    padding-top: 60px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contai{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    margin-left: 60px;
+    margin-right: 850px;
+}
+
+nav > a{
+    color: hsl(0, 0%, 100%);
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+nav a:active{
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration-intro{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 600px;
+    margin-bottom: 80px;
+}
+
+.all-your{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+    margin: auto;
+    width: 640px;
+    margin-bottom: 40px;
+}
+
+.fylo-stores{
+    text-align: center;
+    color: rgb(184, 184, 184);
+    font-size: 1.2em;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-left: 610px;
+    padding: 13px;
+    width: 220px;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    cursor: pointer;
+    margin-bottom: 120px;
+    border: 0px;
+
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.btn:active{
+    background-color: hsla(176, 68%, 64%, 0.753);
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.a{
+    margin-left: 250px;
+    width: 390px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-access-anywhere{
+    margin-left: 150px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.inf{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    line-height: 3rem;
+
+}
+
+.span{
+    color: rgb(184, 184, 184);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.b{
+    margin-left: 100px;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    margin-left: 180px;
+    width: 85px;
+    margin-bottom: 10px;
+}
+
+.c{
+    margin-top: 40px;
+    margin-left: 220px;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+
+.d{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.illustration-stay-productive{
+    margin-top: 80px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.stay-productive{
+    margin-top: 120px;
+    width: 400px;
+    margin-left: 55px;
+
+
+    color: hsl(0, 0%, 100%);
+    font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 3.2rem;
+}
+
+.never-let{
+    margin-top: 30px;
+    margin-left: 55px;
+    width: 520px;
+    color: rgb(184, 184, 184);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.securely-share{
+    margin-top: 30px;
+    margin-left: 55px;
+    width: 550px;
+    color: rgb(184, 184, 184);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.see{
+    margin-top: 30px;
+    margin-left: 55px;
+
+
+    color: hsl(176, 68%, 64%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arrow{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 20px;
+}
+
+.aligncontain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-quotes{
+    width: 40px;
+    transform: translate(20px, -30px);
+}
+
+#contain{
+    margin-top: 150px;
+    padding: 30px;
+    width: 380px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 3px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px hsla(219, 30%, 18%, 0.301);
+}
+
+.spa{
+    color: rgb(184, 184, 184);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    margin-top: 20px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.name{
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.info{
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: rgb(184, 184, 184);
+}
+
+.cont{
+    margin-top: 200px;
+    margin-left: 400px;
+    padding: 20px;
+    width: 650px;
+    height: 190px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px hsla(0, 0%, 0%, 0.418);
+    transform: translate(0px, 120px);
+}
+
+.get-early{
+    margin-top: 20px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 4rem;
+}
+
+.it-only{
+    color: rgb(184, 184, 184);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type=email]{
+    margin-top: 20px;
+    width: 350px;
+    padding: 12px;
+    border-radius: 40px;
+    border: 0px;
+}
+
+input[type=button]{
+    margin-left: 20px;
+    width: 180px;
+    padding: 12px;
+    border-radius: 40px;
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    cursor: pointer;
+}
+
+input[type=button]:active{
+    background-color: hsla(176, 68%, 64%, 0.753);
+}
+
+::placeholder{
+    color: rgb(207, 207, 207);
+}
+
+footer{
+    padding-top: 80px;
+    background-color: hsl(216, 53%, 9%);
+    height: 350px;
+}
+
+.columnn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.logo2{
+    margin-top: 80px;
+    width: 120px;
+    margin-right: 850px;
+}
+
+
+.icon-footer{
+    width: 12px;
+}
+
+.lorem{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 300px;
+
+
+    color: rgb(184, 184, 184);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.example{
+    margin-top: 0px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.foo{
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+.foo:active{
+    color: hsl(0, 0%, 100%);
+}
+
+span{
+    margin-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span:active{
+    color: hsl(0, 0%, 100%);
+}

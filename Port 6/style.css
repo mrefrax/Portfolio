@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+main{
+    width: 1440px;
+    margin: auto;
+    background-color: hsl(180, 52%, 96%);
+    padding-bottom: 40px;
+}
+
+#fundo{
+    background-image: url('images/bg-header-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 157px;
+    background-color: hsl(180, 29%, 50%);
+    margin-bottom: 60px;
+}
+
+.cyan{
+    background-color: hsl(180, 29%, 50%);
+    width: 10px;
+    border-radius: 5px;
+    padding-left: 4px;
+    margin-left: 21%;
+}
+
+.containe{
+    background-color: hsl(0, 00%, 100%);
+    width: 797px;
+    padding: 17px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 7px 14px hsla(180, 29%, 50%, 0.356);
+    margin-bottom: 15px;
+}
+
+.containe .align{
+    display: flex;
+    align-items: center;
+}
+
+.containe .image{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.containe .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.containe .flex{
+    display: flex;
+    align-items: center;
+}
+
+.containe .flex .name{
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+}
+
+.containe .flex .ne{
+    padding: 4px;
+    width: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(180, 29%, 50%);
+    margin-right: 10px;
+
+    text-align: center;
+}
+
+.containe .flex .new{
+    color: hsl(0, 00%, 100%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.containe .flex .fe{
+    padding: 4px;
+    border-radius: 40px;
+    width: 65px;
+    border: none;
+    background-color: hsl(180, 14%, 20%);
+
+    text-align: center;
+}
+
+.containe .flex .featured{
+    color: hsl(0, 00%, 100%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.containe .align{
+    display: flex;
+    align-items: center;
+}
+
+.containe .align .titu{
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 19px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.containe .align .titu:active{
+    color: hsl(180, 29%, 50%);
+}
+
+.containe .align .role{
+    margin-left: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.containe .align .role:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.containe .align .rol{
+    margin-left: 200px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.containe .align .rol:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.containe .align .level{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.containe .align .level:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.containe .align .language{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.containe .align .language:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.containe .align .tools{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.containe .align .tools:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.containe .align .info{
+    margin-right: 7px;
+
+    color: hsl(180, 8%, 52%);
+}
+
+.bolinha{
+    background-color: hsl(180, 8%, 52%);
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.container{
+    background-color: hsl(0, 00%, 100%);
+    margin: auto;
+    width: 800px;
+    padding: 17px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 14px hsla(180, 29%, 50%, 0.356);
+    margin-bottom: 15px;
+}
+
+.container .align{
+    display: flex;
+    align-items: center;
+}
+
+.container .image{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.container .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .flex{
+    display: flex;
+    align-items: center;
+}
+
+.container .flex .name{
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+}
+
+.container .flex .ne{
+    padding: 4px;
+    width: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(180, 29%, 50%);
+    margin-right: 10px;
+
+    text-align: center;
+}
+
+.container .flex .new{
+    color: hsl(0, 00%, 100%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.container .flex .fe{
+    padding: 4px;
+    border-radius: 40px;
+    width: 65px;
+    border: none;
+    background-color: hsl(180, 14%, 20%);
+
+    text-align: center;
+}
+
+.container .flex .featured{
+    color: hsl(0, 00%, 100%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.container .align{
+    display: flex;
+    align-items: center;
+}
+
+.container .align .titu{
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 19px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.container .align .titu:active{
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .role{
+    margin-left: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .role:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .rol{
+    margin-left: 200px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .rol:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .rolee{
+    margin-left: 57px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .rolee:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .r{
+    margin-left: 140px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .r:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .roo{
+    margin-left: 190px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .roo:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .roll{
+    margin-left: 170px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .roll:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .rool{
+    margin-left: 105px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .rool:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .roole{
+    margin-left: 188px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .roole:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .level{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .level:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .language{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .language:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .tools{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .tools:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.containe .align .role:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.container .align .tools{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+
+    color: hsl(180, 29%, 50%);
+}
+
+.container .align .info{
+    margin-right: 7px;
+
+    color: hsl(180, 8%, 52%);
+}
+
+.bolinha{
+    background-color: hsl(180, 8%, 52%);
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
