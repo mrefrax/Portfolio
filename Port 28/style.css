@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(222, 26%, 31%);
+}
+
+#container{
+    width: 360px;
+    height: 500px;
+    padding: 10px;
+    background-color: hsl(222, 26%, 31%);
+    border-radius: 10px;
+}
+
+#container .alinhar{
+    display: flex;
+    align-items: center;
+
+    color: hsl(0, 0%, 100%);
+}
+
+#container .calculator{
+    margin-right: 220px;
+
+    font-size: 18px;
+}
+
+#container .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+#container .numbers{
+    margin-left: 62px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#container .alignitem{
+    display: flex;
+    align-items: center;
+}
+
+#container .theme{
+    margin-right: 20px;
+    font-size: 10px;
+}
+
+#container .back{
+    margin-left: 5px;
+    width: 50px;
+    height: 18px;
+    border-radius: 50px;
+    background-color: hsl(223, 31%, 20%);
+}
+
+#container .color{
+    margin-top: 3px;
+    margin-left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: hsl(6, 63%, 50%);
+    cursor: pointer;
+}
+
+#container .resul{
+    margin-top: 20px;
+    height: 90px;
+    border-radius: 7px;
+    background-color: hsl(224, 36%, 15%);
+}
+
+#container .val{
+    padding-top: 30px;
+    margin-left: 62%;
+    font-size: 2.2rem;
+
+    color: hsl(0, 0%, 100%);
+}
+
+#container .nums{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 16px;
+    height: 320px;
+    border-radius: 7px;
+    background-color: hsl(223, 31%, 20%);
+}
+
+#container .ali{
+    display: flex;
+    align-items: center;
+}
+
+#container .nums .delete{
+    background-color: hsl(222, 26%, 31%);
+    box-shadow: inset 0px 5px 0px hsl(222, 26%, 31%);
+    padding: 15px;
+
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+}
+#container .nums .delete:hover{
+    background-color: hsl(220, 18%, 50%);
+    box-shadow: inset 0px 5px 0px  hsl(220, 18%, 50%);
+}
+
+
+#container .nums button{
+    width: 68px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: inset 0px 5px 0px hsl(28, 16%, 65%);
+
+    font-size: 1.7rem;
+    color: hsl(223, 31%, 20%);
+    cursor: pointer;
+}
+
+#container .nums .reset{
+    margin-top: 10px;
+    width: 160px;
+    background-color: hsl(222, 26%, 31%);
+    box-shadow: inset 0px 5px 0px  hsl(222, 26%, 31%);
+    padding: 14px;
+
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+}
+
+#container .nums .reset:hover{
+    background-color: hsl(220, 18%, 50%);
+    box-shadow: inset 0px 5px 0px  hsl(220, 18%, 50%);
+}
+
+#container .nums .res{
+    margin-top: 10px;
+    width: 150px;
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: inset 0px 5px 0px  hsl(6, 63%, 50%);
+
+    color: hsl(0, 0%, 100%);
+}
+
+#container .nums .res:hover{
+    background-color: hsl(6, 76%, 69%);
+    box-shadow: inset 0px 5px 0px  hsl(6, 76%, 69%);
+}
