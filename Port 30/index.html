@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <div id="mortgage">
+    <div class="coluna">
+      <div class="flex">
+        <h1 class="mortgage-calculator">Mortgage Calculator</h1>
+        <a href="#">Clear All</a>
+      </div>
+      <div class="direction">
+        <h3 class="amount">Mortgage Amount</h3>
+          <button>
+            <div class="alinhar">
+            <span class="euro">&#8364;</span>
+            <span class="number">300,00</span>
+          </div>
+          </button>
+      </div>
+      <div class="alignn">
+        <div class="direction">
+          <h3 class="term">Mortgage Term</h3>
+            <button class="btn-term">
+              <div class="alinharr">
+              <span class="num">25</span>
+              <p class="anos">years</p>
+            </div>
+            </button>
+        </div>
+        <div class="direction">
+          <span class="rate">Interest Rate</span>
+            <button class="btn-porcent">
+              <div class="alinhar">
+              <span class="nu">5.25</span>
+              <p class="porcent">%</p>
+            </div>
+            </button>
+            </div>
+      </div>
+      <div class="direction">
+        <div class="column">
+          <h3 class="type">Mortgage Type</h3>
+            <button class="mortgage-type">
+              <div class="align-items">
+              <input class="rad" type="radio" name="radio">
+              <p class="repayment">Repayment</p>
+            </div>
+            </button>
+          </div>
+          <button class="btn-interest">
+            <div class="align-items">
+              <input class="rad" type="radio" name="radio">
+              <p class="only">Interest Only</p>
+            </div>
+          </button>
+        </div>
+        <button class="calculate">
+          <div class="alinhar">
+            <img class="img-calculator" src="assets/images/icon-calculator.svg" alt="icon-calculator">
+            <span class="repay">Calculate Repayments</span>
+          </div>
+        </button>
+    </div>
+
+      <div class="coluna">
+        <div id="right">
+          <h1 class="your-results">Your results</h1>
+          <p class="your-re">Your results are shown below based on the information you provided. To adjust the results, edit the form and click “calculate repayments” again.</p>
+          <div class="color"></div>
+          <div class="back">
+            <div class="column">
+              <span class="your-monthly">Your monthly repayments</span>
+              <span class="pay">&#8364;1,797.74</span>
+            </div>
+            <hr class="line">
+            <div class="column">
+              <span class="total">Total you'll repay over the term</span>
+              <span class="numb">&#8364;539,322.94</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

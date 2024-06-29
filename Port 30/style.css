@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;1,500&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: hsl(202, 86%, 94%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#mortgage{
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px 8px hsla(201, 39%, 13%, 0.055);
+}
+
+#mortgage .coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+#mortgage .flex{
+    display: flex;
+    align-items: center;
+}
+
+#mortgage .mortgage-calculator{
+    margin-right: 90px;
+    margin-bottom: 25px;
+
+    font-size: 1rem;
+}
+
+#mortgage a{
+    margin-bottom: 25px;
+
+    font-size: 0.8rem;
+    color: hsl(200, 26%, 54%);
+}
+
+#mortgage .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+#mortgage .direction .amount{
+    font-size: 0.8rem;
+    color: hsl(200, 26%, 54%);
+    font-weight: 500;
+}
+
+#mortgage button{
+    margin-top: 7px;
+    width: 300px;
+    border: 1px solid hsl(200, 26%, 54%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#mortgage .alinhar{
+    display: flex;
+    align-items: center;
+}
+
+#mortgage button .euro{
+    margin-right: 2px;
+    margin-left: 0px;
+    background-color: hsl(203, 41%, 72%);
+    padding: 8px;
+
+    font-weight: 700;
+}
+
+#mortgage button .number{
+    margin-right: 180px;
+    margin-left: 10px;
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
+
+#mortgage .alignn{
+    display: flex;
+    align-items: center;
+}
+
+#mortagage .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+#mortgage .term{
+    margin-top: 20px;
+
+    font-size: 0.8rem;
+    color: hsl(200, 26%, 54%);
+    font-weight: 500;
+}
+
+#mortgage .alinharr{
+    display: flex;
+    align-items: center;
+}
+
+#mortgage .btn-term{
+    margin-top: 8px;
+    margin-right: 10px;
+    width: 145px;
+    border: 1px solid hsl(200, 26%, 54%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+}
+
+#mortgage .alinharr .num{
+    margin-right: 63px;
+    margin-left: 10px;
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
+
+#mortgage .btn-term .anos{
+    margin-left: 5px;
+    background-color: hsl(203, 41%, 72%);
+    padding: 8px 8px;
+    border-radius: 0px 3px 3px 0px;
+
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
+
+#morgage .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+#mortgage .direction .rate{
+    margin-top: 20px;
+
+    font-size: 0.8rem;
+    color: hsl(200, 26%, 54%);
+    font-weight: 500;
+}
+
+#mortgage .btn-porcent{
+    margin-top: 8px;
+    width: 145px;
+    border: 1px solid hsl(200, 26%, 54%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+}
+
+#mortgage .btn-porcent .alinhar{
+    display: flex;
+    align-items: center;
+}
+
+#mortgage .btn-porcent .nu{
+    margin-left: 10px;
+    margin-right: 80px;
+
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
+
+#mortgage .btn-porcent .porcent{
+    padding: 8px 8px;
+    background-color: hsl(203, 41%, 72%);
+    border-radius: 0px 3px 3px 0px;
+
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
+
+#mortgage .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+#mortgage .column{
+    display: flex;
+    flex-direction: column;
+}
+
+#mortgage .column .type{
+    margin-top: 20px;
+
+    font-size: 0.8rem;
+    color: hsl(200, 26%, 54%);
+    font-weight: 500;
+}
+
+#mortgage .mortgage-type{
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border: 1px solid hsl(61, 70%, 52%);
+    background-color: hsla(61, 70%, 52%, 0.233);
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#mortgage .mortgage-type .align-items{
+    display: flex;
+    align-items: center;
+}
+
+#mortgage .btn-interest{
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border: 1px solid hsl(203, 41%, 72%);
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#mortgage .rad{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#mortgage .align-items{
+    display: flex;
+    align-items: center;
+}
+
+
+#mortgage .repayment{
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
+
+#mortgage .only{
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
+
+#mortgage .calculate{
+    margin-top: 10px;
+    width: 190px;
+    padding: 7px;
+    border-radius: 50px;
+    border: 1px solid hsl(61, 70%, 52%);
+    background-color: hsl(61, 70%, 52%);
+    cursor: pointer;
+}
+
+#mortgage .calculate .alinhar{
+    display: flex;
+    align-items: center;
+}
+
+#mortgage .img-calculator{
+    width: 17px;
+    margin-left: 15px;
+    margin-right: 7px;
+}
+
+#mortgage .repay{
+    font-size: 0.7rem;
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+#right{
+    margin-left: 50px;
+    width: 330px;
+    background-color: hsl(202, 55%, 16%);
+    height: 380px;
+    border-radius: 0px 15px 15px 50px;
+}
+
+#right .your-results{
+    margin-top: 20px;
+    margin-left: 20px;
+
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+#right .your-re{
+    width: 290px;
+    color: hsl(200, 26%, 54%);
+    font-size: 0.7rem;
+    margin-left: 20px;
+}
+
+#right .back{
+    margin-top: 34px;
+    margin-left: 20px;
+    background-color: hsl(201, 39%, 13%);
+    border-radius: 0px 0px 4px 4px;
+    width: 280px;
+    height: 200px;
+    position: relative;
+    z-index: 99999999;
+}
+
+#right .color{
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 270px;
+    height: 1px;
+    background-color: hsl(61, 70%, 52%);
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+}
+
+#right .back .column{
+    display: flex;
+    flex-direction: column;
+}
+
+#right .back .your-monthly{
+    margin-top: 10px;
+    margin-left: 20px;
+
+    color: hsl(200, 26%, 54%);
+    font-size: 0.7rem;
+}
+
+#right .pay{
+    margin-top: 10px;
+    margin-left: 20px;
+
+    color: hsl(61, 70%, 52%);
+    font-size: 2rem;
+}
+
+#right .line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 230px;
+    border-color: hsla(200, 26%, 54%, 0.651);
+}
+
+#right .total{
+    margin-left: 20px;
+
+    color: hsl(200, 26%, 54%);
+    font-size: 0.7rem;
+}
+
+#right .numb{
+    margin-top: 10px;
+    margin-left: 20px;
+
+    color: hsl(0, 0%, 100%);
+}
