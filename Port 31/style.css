@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: hsl(223, 19%, 93%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Rubik", sans-serif;
+}
+
+.direction{
+    display: flex;
+    flex-direction: column;
+}
+
+#container{
+    margin-top: 200px;
+    padding-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    width: 690px;
+    height: 130px;
+    margin-bottom: 17px;
+}
+
+ .more-our{
+    display: flex;
+    align-items: center;
+}
+
+ .flex{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(223, 19%, 93%);
+    padding: 9px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.flex .img1{
+    width: 12px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+}
+
+.flex .doze{
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+ .coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.avatar{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.name{
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+
+.month{
+    color: hsl(211, 10%, 45%);
+}
+
+.reply{
+    width: 15px;
+    margin-left: 310px;
+    margin-right: 7px;
+}
+
+.re{
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+}
+
+.pa{
+    width: 580px;
+
+    color: hsl(211, 10%, 45%);
+    line-height: 1.4rem;
+}
+
+#container2{
+    padding-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    width: 690px;
+    height: 130px;
+}
+
+.alinhar-items{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 2px;
+    height: 300px;
+    background-color: hsla(211, 10%, 45%, 0.295);
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+#container3{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    width: 630px;
+    height: 130px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#container3 .reply{
+    margin-left: 235px;
+}
+
+#container3 .pa{
+    width: 520px;
+
+    color: hsl(211, 10%, 45%);
+    line-height: 1.4rem;
+}
+
+#container3 .pa .user{
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+}
+
+#container4{
+    padding-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    width: 630px;
+    height: 130px;
+    margin-left: 20px;
+}
+
+#container4 .you{
+    background-color: hsl(238, 40%, 52%);
+    padding: 3px 7px;
+    border-radius: 2px;
+    margin-right: 10px;
+
+    color: hsl(0, 0%, 100%);
+    font-size: 0.7rem;
+}
+
+#container4 .delete{
+    background-color: transparent;
+    border: none;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+#container4 .delete .de{
+    color: hsl(358, 79%, 66%);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+#container4 .reply{
+    margin-left: 15px;
+}
+
+#container4 .pa{
+    width: 520px;
+
+    color: hsl(211, 10%, 45%);
+    line-height: 1.4rem;
+}
+
+#container4 .pa .user{
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+}
+
+
+#container5{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    width: 685px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+#container5 .align-items{
+    display: flex;
+    align-items: center;
+}
+
+#container5 .avt{
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+#container5 input[type=text]{
+    width: 450px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+::placeholder{
+    margin-left: 20px;
+}
+
+#container5 input[type=button]{
+    padding: 12px 0px;
+    width: 80px;
+    background-color: hsl(238, 40%, 52%);
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
