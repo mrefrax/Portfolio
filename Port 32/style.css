@@ -1,0 +1,24 @@
+@font-face {
+    font-family: hack;
+    src: url('hackerchaos/hackerchaos.otf');
+}
+
+body{
+    background-image: linear-gradient(to right, hsla(347, 73%, 47%, 0.795), hsl(345, 61%, 38%), hsl(350, 65%, 21%));
+}
+
+.background{
+    margin: auto;
+    margin-top: 400px;
+    background-image: linear-gradient(to top, hsl(0, 76%, 52%), hsl(0, 49%, 45%));
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hello{
+    text-align: center;
+    font-size: 4rem;
+    color: hsl(0, 00%, 100%);
+    font-family: hack;
+}
