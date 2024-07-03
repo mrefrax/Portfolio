@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: hsl(0, 4%, 78%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Manrope", sans-serif;
+}
+
+#container{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 320px;
+    border-radius: 8px 50px 8px 8px;
+    box-shadow: 2px 2px 15px 15px hsla(0, 0%, 0%, 0.075);
+}
+
+#container .flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#container .name{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+
+    font-size: 1rem;
+    color: hsla(0, 0%, 48%, 0.815);
+}
+
+#container .em{
+    width: 250px;
+    margin-left: 40px;
+    padding: 7px;
+    border: 1px solid hsl(0, 1%, 28%);
+    border-radius: 4px;
+}
+
+#container .name2{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+
+    font-size: 1rem;
+    color: hsla(0, 0%, 48%, 0.815);
+}
+
+#container .sen{
+    width: 250px;
+    margin-left: 40px;
+    padding: 7px;
+    border: 1px solid hsl(0, 1%, 28%);
+    border-radius: 4px;
+}
+
+#container .flex .btn{
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    width: 90px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 1%);
+    background-color: transparent;
+
+    letter-spacing: 1px;
+}
+
+#container .flex .btn:hover{
+    background-image: linear-gradient(to left, hsl(0, 0%, 0%), #696868);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#container .flex .forget{
+    width: 150px;
+    padding: 7px;
+    margin-left: 95px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: hsl(0, 1%, 28%);
+}
+
+#container .flex .forget:hover{
+    color: hsl(0, 0%, 5%);
+}
