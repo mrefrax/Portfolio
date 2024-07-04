@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: hsl(0, 00%, 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+#container{
+    background-color: hsl(60, 56%, 91%);
+    width: 410px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 20px 20px hsla(0, 0%, 0%, 0.123);
+    
+}
+
+#container .align{
+    display: flex;
+    align-items: center;
+}
+
+#container .nom{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+    letter-spacing: 1px;
+}
+
+#container .na{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 220px;
+    border: 1px solid hsl(60, 20%, 67%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#container .email{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+    letter-spacing: 1px;
+}
+
+#container .addemail{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 220px;
+    border: 1px solid hsl(60, 20%, 67%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#container .column{
+    display: flex;
+    flex-direction: column;
+}
+
+#container .column .how{
+    margin-top: 30px;
+
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#container .column .txt{
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    margin-left: 30px;
+    border: 1px solid hsl(60, 20%, 67%);
+    border-radius: 5px;
+}
+
+#container .column .sub{
+    width: 70px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid hsla(0, 0%, 0%, 0.123);
+    cursor: pointer;
+
+    letter-spacing: 1px;
+}
+
+#container .column .sub:hover{
+    background-color: hsl(60, 8%, 55%);
+    color: hsl(0, 00%, 100%);
+}
