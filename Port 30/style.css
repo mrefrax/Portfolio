@@ -124,6 +124,7 @@ body{
 #mortgage .alinharr .num{
     margin-right: 63px;
     margin-left: 10px;
+
     color: hsl(202, 55%, 16%);
     font-weight: 700;
 }
@@ -365,4 +366,71 @@ body{
     margin-left: 20px;
 
     color: hsl(0, 0%, 100%);
+}
+
+@media only screen and (min-width: 419px) and (max-width: 992px) {
+
+    #mortgage{
+        width: 320px;
+        height: 650px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    #mortgage .flex{
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #mortgage .flex .mortgage-calculator{
+        margin-top: 20px;
+        text-align: left;
+        margin-bottom: 18px;
+    }
+
+    #mortgage .alignn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mortgage .btn-term{
+        width: 300px;
+    }
+
+    #mortgage .alinharr .num{
+        margin-right: 218px;
+    }
+
+    #mortgage .btn-porcent{
+        width: 300px;
+    }
+
+    #mortgage .alinhar .nu{
+        margin-right: 235px;
+    }
+
+    #mortgage .calculate{
+        margin-left: 30px;
+        padding: 9px;
+        width: 240px;
+    }
+
+    #mortgage .alinhar .img-calculator{
+        width: 25px;
+    }
+
+    #mortgage .alinhar .repay{
+        font-size: 0.8rem;
+    }
+
+    #right{
+        margin-top: 20px;
+        margin-left: 0px;
+        border-radius: 0px 0px 15px 15px;
+        width: 340px;
+        height: 360px;
+    }
 }
