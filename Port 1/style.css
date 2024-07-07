@@ -228,3 +228,44 @@ hr{
     color: hsl(14, 45%, 36%);
     font-weight: 700;
 }
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+    #container{
+        margin-top: 10px;
+        width: 360px;
+        height: 20%;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    #container .image-omelette{
+        width: 310px;
+    }
+
+    #container .simple{
+        font-size: 1.4rem;
+        width: 200px;
+    }
+
+    #container .an-easy{
+        width: 315px;
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    #container .container{
+        width: 270px;
+    }
+
+    #container .infoinstru{
+        margin-left: 20px;
+        width: 310px;
+    }
+
+    #container .nutriinf{
+        margin-left: 42.6%;
+    }
+
+    #container .nutrii{
+        margin-left: 47%;
+    }
+}
