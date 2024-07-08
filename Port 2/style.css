@@ -44,8 +44,17 @@ body{
     margin-bottom: 30px;
 }
 
+hr{
+    display: block;
+}
+
+#container .alinharr{
+    display: flex;
+    align-items: center;
+}
+
 #container .mode{
-    margin-left: 30%;
+    margin-left: 40%;
 
     color: hsl(228, 12%, 44%);
     font-weight: 700;
@@ -53,7 +62,7 @@ body{
 
 #container .da{
     margin-left: 10px;
-    width: 50px;
+    width: 90px;
     height: 25px;
     background-image: linear-gradient(to left, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     border-radius: 50px;
@@ -311,4 +320,81 @@ body{
 
     color:hsl(356, 69%, 56%);
     font-size: 11px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+    #container{
+        margin-top: 1400px;
+        width: 380px;
+        height: 2000px;
+        border-radius: 7px;
+    }
+
+    #container .flex{
+        display: block;
+    }
+
+    #container .social{
+        margin-left: 10px;
+        margin-bottom: 4px;
+
+        font-size: 1.2rem;
+    }
+
+    #container .alinharr{
+        display: flex;
+        align-items: center;
+    }
+
+    #container .total{
+        margin-left: 10px;
+        width: 400px;
+    }
+
+    hr{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        width: 280px;
+
+        border-color: hsla(229, 27%, 20%, 0.555);
+    }
+
+    #container .mode{
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    #container .da{
+        width: 60px;
+        margin-bottom: 20px;
+    }
+
+    #container .alinhar{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    #container .blue{
+        margin-bottom: 15px;
+    }
+
+    #container .red{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    #container .overview{
+        margin-left: 0px;
+
+        font-size: 1.2rem;
+    }
+
+    #container .alig{
+        display: flex;
+        flex-direction: column;
+        width: 0px;
+        margin-left: 70px;
+    }
+
 }
