@@ -42,6 +42,26 @@ body{
     margin-bottom: 50px;
 }
 
+#contai .back{
+    background-image: linear-gradient(to left, hsl(236, 72%, 79%), hsl(236, 72%, 79%));
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    margin-bottom: 44px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#contai .back .bola{
+    margin-top: 1px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 100%);
+    transform: scale(0.8);
+}
+
 input[type = checkbox]{
     width: 50px;
     margin-bottom: 50px;
@@ -224,4 +244,33 @@ hr{
     padding: 8px;
     font-size: 13px;
     color: hsl(233, 13%, 49%);
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+    
+    #contai .our-pricing{
+        margin-top: 700px;
+    }
+
+    #contai .annually{
+        margin-left: 0px;
+    }
+
+    #contai .align{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container{
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .container{
+        margin-bottom: 20px;
+    }
+
+    #contain{
+        border-radius: 10px;
+    }
 }
