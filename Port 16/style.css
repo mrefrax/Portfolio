@@ -62,11 +62,6 @@ body{
     transform: scale(0.8);
 }
 
-input[type = checkbox]{
-    width: 50px;
-    margin-bottom: 50px;
-}
-
 .monthly{
     color: hsl(234, 14%, 74%);
     margin-bottom: 50px;
