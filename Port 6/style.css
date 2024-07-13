@@ -7,7 +7,7 @@
 }
 
 main{
-    width: 1440px;
+    width: 100%;
     margin: auto;
     background-color: hsl(180, 52%, 96%);
     padding-bottom: 40px;
@@ -16,7 +16,7 @@ main{
 #fundo{
     background-image: url('images/bg-header-desktop.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 157px;
     background-color: hsl(180, 29%, 50%);
     margin-bottom: 60px;
@@ -27,7 +27,7 @@ main{
     width: 10px;
     border-radius: 5px;
     padding-left: 4px;
-    margin-left: 21%;
+    margin-left: 23.7%;
 }
 
 .containe{
@@ -42,6 +42,7 @@ main{
 .containe .align{
     display: flex;
     align-items: center;
+    
 }
 
 .containe .image{
