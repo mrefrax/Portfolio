@@ -36,6 +36,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10px;
+    margin-left: 50px;
     width: 1400px;
     height: 400px;
 }
@@ -160,6 +161,7 @@ nav > a:hover{
 
 .image-about-dark{
     width: 354px;
+    margin-left: 50px;
     margin-bottom: 67px;
 }
 
@@ -169,20 +171,20 @@ nav > a:hover{
 }
 
 .about{
-    margin-left: 38px;
+    margin-left: 28px;
 
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: 11px;
     line-height: 3rem;
 }
 
 .our-multifunctional{
-    margin-left: 38px;
+    margin-left: 28px;
     margin-bottom: 50px;
-    width: 430px;
+    width: 415px;
 
     color: var(--cor0);
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .image-about-light{
