@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: "Red Hat Text", sans-serif;
+    background-color: hsl(13, 31%, 94%);
+}
+
+#container{
+    width: 900px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.dess{
+    margin-bottom: 10px;
+
+    font-size: 1.4rem;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+}
+
+#container .container .img{
+    margin-top: 12px;
+    width: 220px;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+
+#container .container .name{
+    margin-top: 15px;
+
+    font-size: 0.8rem;
+    color: hsl(7, 20%, 60%);
+    font-weight: 400;
+}
+
+#container .container .name2{
+    margin: 5px 0px;
+
+    font-size: 1rem;
+}
+
+#container .container .value{
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+}
+
+#container .container .btn-add1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 35.7%;
+    left: 4%;
+    cursor: pointer;
+}
+
+#container .container .btn-add1 .add-cart1{
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#container .container2 .imgg{
+    margin-top: 15px;
+    width: 220px;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+
+#container .container2 .name{
+    margin-top: 15px;
+
+    font-size: 0.8rem;
+    color: hsl(7, 20%, 60%);
+    font-weight: 400;
+}
+
+#container .container2 .name2{
+    margin: 5px 0px;
+
+    font-size: 1rem;
+}
+
+#container .container2 .value{
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+}
+
+#container .container2 .btn-add2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 35.8%;
+    left: 19.5%;
+    cursor: pointer;
+}
+
+#container .container2 .btn-add3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 35.8%;
+    left: 34.7%;
+    cursor: pointer;
+}
+
+#container .container2 .btn-add3 .add-cart3{
+    margin-right: 5px;
+}
+
+#container .container2 .btn-add2 .add-cart2{
+    margin-right: 5px;
+}
+
+
+#container .container2 .btn-add4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 78.5%;
+    left: 4.5%;
+    cursor: pointer;
+}
+
+#container .container2 .btn-add4 .add-cart4{
+    margin-right: 5px;
+}
+
+
+#container .container2 .btn-add5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 78.5%;
+    left: 19.8%;
+    cursor: pointer;
+}
+
+#container .container2 .btn-add5 .add-cart5{
+    margin-right: 5px;
+}
+
+#container .container2 .btn-add6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 78.5%;
+    left: 34.6%;
+    cursor: pointer;
+}
+
+#container .container2 .btn-add6 .add-cart6{
+    margin-right: 5px;
+}
+
+#container .container2 .btn-add7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 121%;
+    left: 4.6%;
+    cursor: pointer;
+}
+
+#container .container2 .btn-add7 .add-cart7{
+    margin-right: 5px;
+}
+
+#container .container2 .btn-add8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 121%;
+    left: 19.5%;
+    cursor: pointer;
+}
+
+#container .container2 .btn-add8 .add-cart8{
+    margin-right: 5px;
+}
+
+#container .container2 .btn-add9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid hsl(14, 25%, 72%);
+    font-weight: 600;
+    position: absolute;
+    top: 121%;
+    left: 34.5%;
+    cursor: pointer;
+}
+
+#container .container2 .btn-add9 .add-cart9{
+    margin-right: 5px;
+}
+
+.your-cart{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 00%, 100%);
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    position: absolute;
+    left: 60%;
+    bottom: 64%;
+}
+
+.zero{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: hsl(14, 86%, 42%);
+    font-family: 700;
+}
+
+.empty-cart{
+    margin-top: 20px;
+    width: 120px;
+    margin-left: 100px;
+}
